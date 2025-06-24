@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+form {
+    display: inline-block;
+}
+
+.option-label {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.option-label:hover {
+    background-color: #0056b3;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
